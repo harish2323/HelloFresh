@@ -2,7 +2,7 @@
 
 The framework uses cucumber for BDD scenarios and java(selenium) to define the steps. The tests can be run in firefox or chrome.
 
-
+The tests have been configured to run in parallel ( the settings are specified in pom.xml)
 Run the tests from command line with the following commands ( make sure the current folder is qa-test-hf) :
 
 1) run just the ui tests :
